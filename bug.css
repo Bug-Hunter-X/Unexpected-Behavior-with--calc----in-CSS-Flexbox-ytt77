@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly, leading to unexpected results.  For example, using `calc(100% - 10px)` inside a flexbox container might not produce the expected result if the parent container doesn't have a defined width. The calculation might be based on the content's width instead of the container's width.
